@@ -96,5 +96,37 @@ namespace Calculator
         {
 
         }
+
+        private void buttonSquare_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "") return;
+
+            double num = Convert.ToDouble(textBox2.Text);
+            textBox2.Text = (num * num).ToString();
+        }
+
+        private void buttonSqrt_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "") return;
+
+            double num = Convert.ToDouble(textBox2.Text);
+
+            if (num < 0)
+            {
+                MessageBox.Show("Cannot find square root of a negative number");
+                return;
+            }
+
+            textBox2.Text = Math.Sqrt(num).ToString();
+        }
+
+        private void buttonPercent_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "") return;
+
+            double num = Convert.ToDouble(textBox2.Text);
+            textBox2.Text = (num / 100).ToString();
+        }
+        
     }
 }
