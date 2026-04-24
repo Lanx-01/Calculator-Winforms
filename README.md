@@ -1,165 +1,107 @@
-[README.md](https://github.com/user-attachments/files/27014555/README.md)
-\# 🧮 Calculator (C# WinForms)
+# 🧮 Calculator – C# Windows Forms
 
+This project is a calculator application developed using **C# Windows Forms**. It performs basic arithmetic operations and includes additional scientific features, all presented in a clean and user-friendly interface.
 
+---
 
-A simple and user-friendly calculator application developed using \*\*C# Windows Forms\*\*. This project demonstrates basic arithmetic operations along with a clean and modern graphical user interface.
+## 🚀 Features
 
+- Basic arithmetic operations:
+  - Addition (+)
+  - Subtraction (−)
+  - Multiplication (×)
+  - Division (÷)
 
+- Scientific functions:
+  - Square root (√)
+  - Square (x²)
+  - Percentage (%)
 
-\---
+- Interactive user interface:
+  - Hover effects on buttons
+  - Color-coded layout for better usability
+  - Bold and clear button text
 
+- Error handling:
+  - Prevents division by zero
+  - Handles invalid inputs
 
+---
 
-\## ✨ Features
+## 🎨 User Interface
 
+The calculator is designed with a **modern blue theme** to maintain a clean and professional look.
 
+- Light blue → Number buttons  
+- Darker blue → Operators and scientific functions  
+- Red → Important actions (AC and =)  
 
-\- Addition (+)
+This color hierarchy improves usability and makes the interface easy to understand.
 
-\- Subtraction (−)
+---
 
-\- Multiplication (×)
+## 🧠 How It Works
 
-\- Division (÷)
+The calculator uses **event-driven programming**, where each button performs a specific action when clicked.
 
-\- Clear (AC) functionality
+- Numbers are displayed in the textbox  
+- Operators store the selected operation  
+- The equals (=) button performs the calculation  
+- Scientific buttons directly apply their respective functions  
 
-\- Error handling (e.g., division by zero)
+---
 
-\- Responsive button input
+## 📂 Project Structure
 
-\- Clean and visually balanced UI design
+- `Form1.cs` → Main logic and event handling  
+- `Form1.Designer.cs` → UI layout  
+- `Program.cs` → Entry point of the application  
+- `App.config` → Configuration file  
 
+---
 
+## 🛠️ Technologies Used
 
-\---
+- C#
+- Windows Forms (.NET)
 
+---
 
+## 📸 Screenshot
 
-\## 🎨 User Interface
+![Calculator UI](Screenshot%202026-04-23%20180600.png)
 
+---
 
+## 📦 Installation & Usage
 
-The calculator features a modern blue-themed interface with:
+1. Download or clone the repository  
+2. Open the project in **Visual Studio**  
+3. Build and run the application  
 
-\- Consistent color scheme
+---
 
-\- Clearly separated number and operator buttons
+## 🎯 Project Purpose
 
-\- Highlighted equals and clear buttons
+This project was developed as part of a **Computing Fundamentals assignment**. It demonstrates:
 
-\- Centered layout for improved usability
+- Problem-solving using algorithms  
+- Implementation of a GUI application  
+- Understanding of event-driven programming  
+- Basic software design principles  
 
+---
 
+## 🔗 GitHub Repository
 
-\---
+👉 http://github.com/Lanx-01/Calculator-Winforms/tree/main
 
+---
 
+## 🏁 Status
 
-\## 📸 Screenshot
+✔ Final version completed  
+✔ Fully functional  
+✔ Ready for submission  
 
-
-
-!\[Calculator UI](Screenshot%202026-04-23%20180600.png)
-
-
-
-\---
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\- C#
-
-\- .NET (Windows Forms)
-
-\- Visual Studio
-
-
-
-\---
-
-
-
-\## 🚀 How to Run
-
-
-
-1\. Download or clone the repository:
-
-
-
-git clone [https://github.com/Lanx-01/Calculator-Winforms](https://github.com/Lanx-01/Calculator-Winforms)
-
-
-
-
-2\. Open the project in \*\*Visual Studio\*\*
-
-
-
-3\. Build and run the application:
-
-\- Press `Ctrl + F5` or click \*\*Start\*\*
-
-
-
-\---
-
-
-
-\## 📁 Project Structure
-
-Calculator-Winforms/
-
-│── App.config
-
-│── Calculator.csproj
-
-│── Calculator.slnx
-
-│── Form1.cs
-
-│── Form1.Designer.cs
-
-│── Form1.resx
-
-│── Program.cs
-
-
-
-
-\---
-
-
-
-\## 🎯 Learning Outcomes
-
-
-
-This project helped in understanding:
-
-\- Event-driven programming in C#
-
-\- GUI design using Windows Forms
-
-\- Handling user input and operations
-
-\- Structuring a basic desktop application
-
-
-
-\---
-
-
-
-\## 📌 Notes
-
-
-
-This project was created for educational purposes as part of an assignment.
-
+---
